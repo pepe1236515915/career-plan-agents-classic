@@ -86,7 +86,7 @@ class CareerPlanAgents:
     def write_final_report_task(self) -> Task:
         return Task(
             config=self.tasks_config["write_final_report_task"],
-            output_file="output/career_plan_report.md",
+            output_file="report.md",
         )
 
     @crew
